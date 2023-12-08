@@ -1,5 +1,7 @@
 # Desafio Maeztra - Layout
 
+## [Clique aqui para acessar o Layout montado](https://llucasy.github.io/desafio-maeztra-layout/layout/)
+
 Essa é a segunda etapa do teste onde iremos analisar o seu perfeccionismo perfect pixel e de como você constrói os seus layouts.
 
 Requisitos:
