@@ -1,0 +1,193 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maeztra</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap');
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          'titillium': ['Titillium Web', 'sans-serif'],
+          'montserrat': ['Montserrat', 'sans-serif']
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="max-w-[1500px] mx-auto">
+  <p class="flex justify-center items-center h-6 bg-[#353535] text-white text-[10px] lg:text-xs font-titillium">
+    Acompanhe as
+    melhores promoções disponíveis aqui na Maeztra.</p>
+  <header class="h-[88px] shadow-[0_4px_6px_0_#00000014] flex justify-between items-center px-4 lg:px-40">
+    <div class="flex justify-center items-center gap-[15px]">
+      <img class="h-6 lg:hidden" src="images/drawer.svg" alt="Menu hambúrguer">
+      <img class="h-[11.86px] lg:h-[18px] lg:w-[147px] mr-[93px]" src="images/logo-maeztra-novo.png" alt="Logo Maeztra">
+    </div>
+    <div class="flex justify-center items-center gap-[35px] lg:hidden">
+      <img class="h-6" src="images/icon-busca.svg" alt="Pesquisar">
+      <img class="h-6" src="images/icon-shoppingbag.svg" alt="Sacola de compras">
+    </div>
+    <div class="hidden lg:flex justify-center items-center h-10 w-full">
+      <div class="capitalize text-xs font-titillium bg-[#EFEFEF] rounded-[10px] px-6 h-10 w-full flex items-center">O
+        que você busca?</div>
+      <button class="rounded-lg bg-[#FAA500] h-10 w-[119px] text-sm" type="button">Buscar</button>
+    </div>
+    <div class="hidden lg:flex justify-center items-center gap-4 ml-36 text-[#353535] text-sm font-titillium">
+      <div class="flex flex-shrink-0 justify-center items-center gap-2">
+        <img class="h-4" src="images/icon-user.svg" alt="Usuário">
+        <p>Minha Conta</p>
+      </div>
+      <div class="flex flex-shrink-0 justify-center items-center gap-2">
+        <img src="images/icon-heart.svg" alt="Coração">
+        <p>Minha Conta</p>
+      </div>
+      <div class="flex flex-shrink-0 justify-center items-center gap-2 border border-[#FAA500] rounded-lg p-3">
+        <img src="images/icon-shoppingbag2.svg" alt="Sacola">
+        <p>Meu Carrinho</p>
+      </div>
+    </div>
+  </header>
+  <nav class="hidden lg:flex h-12 justify-center items-center">
+    <ul class="flex items-center gap-12 mr-[162px]">
+      <li class="flex"><img src="images/icon-dress.svg" alt="Vestido">Novidades</li>
+      <li>Vestidos</li>
+      <li>Roupas</li>
+      <li>Sapatos</li>
+      <li>Lingerie</li>
+      <li>Acessórios</li>
+      <li class="uppercase">Outlet</li>
+    </ul>
+  </nav>
+  <div class="relative text-white">
+    <h1
+      class="absolute left-1/2 -translate-x-1/2 font-bold text-3xl lg:text-[40px] font-montserrat top-16 lg:top-[150px]">
+      Promoções de Outono
+    </h1>
+    <p class="absolute left-1/2 -translate-x-1/2 top-40 lg:top-[240px] text-sm lg:text-xl font-montserrat">
+      Confiras os melhores looks para combinar com você nesse Outono
+    </p>
+    <button
+      class="absolute left-[30%] lg:left-[28%] -translate-x-1/2 bottom-16 lg:bottom-[232px] text-sm lg:text-base lg:font-bold font-montserrat p-1 lg:py-2 lg:px-4 bg-[#FAA500]"
+      type="button">Conferir</button>
+    <img class="absolute top-1/2 -translate-y-1/2 left-7 lg:left-40" src="images/_icon-prev.svg" alt="Ícono anterior">
+    <img class="absolute top-1/2 -translate-y-1/2 right-7 lg:right-40" src="images/_icon-next.svg" alt="Ícone seguinte">
+    <img class="h-80 lg:h-[600px] w-full object-cover -z-10" src="images/imageUrl.png"
+      alt="Mulher loira com camiseta preta">
+  </div>
+  <h1 class="font-bold text-center mt-6 mb-[21px]">Por que comprar na Maeztra?</h1>
+  <section class="flex justify-center gap-2 mb-10">
+    <div class="bg-[#EFEFEF] h-16 w-[298px] flex justify-center items-center gap-5">
+      <img src="images/Tipbar.svg" alt="Desenho do planeta Terra">
+      <div>
+        <h2 class="font-bold text-sm">Produtos importados</h2>
+        <p class="text-xs text-[#4A4441]">Produto de Alta Qualidade</p>
+      </div>
+    </div>
+    <div class="bg-[#EFEFEF] h-16 w-[298px] hidden sm:flex justify-center items-center gap-5">
+      <img src="images/Tipbar.svg" alt="Desenho do planeta Terra">
+      <div>
+        <h2 class="font-bold text-sm">Estoque no Brazil</h2>
+        <p class="text-xs text-[#4A4441]">Produtos mais perto de você!</p>
+      </div>
+    </div>
+    <div class="bg-[#EFEFEF] h-16 w-[298px] hidden lg:flex justify-center items-center gap-5">
+      <img src="images/Tipbar.svg" alt="Desenho do planeta Terra">
+      <div>
+        <h2 class="font-bold text-sm">Ganhe 5% off</h2>
+        <p class="text-xs text-[#4A4441]">Pagando à vista no Cartão</p>
+      </div>
+    </div>
+    <div class="bg-[#EFEFEF] h-16 w-[298px] hidden xl:flex justify-center items-center gap-5">
+      <img src="images/Tipbar.svg" alt="Desenho do planeta Terra">
+      <div>
+        <h2 class="font-bold text-sm">Frete Grátis</h2>
+        <p class="text-xs text-[#4A4441]">Em compras acima de R$ 499,00</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1 class="font-titillium font-bold text-center text-2xl h-9 mb-6">Marcas Parceiras</h1>
+    <div class="flex justify-center items-center gap-2">
+      <img class="w-[298px]" src="images/Forever21.svg" alt="Forever 21">
+      <img class="hidden sm:block w-[298px]" src="images/Forever21.svg" alt="Forever 21">
+      <img class="hidden lg:block w-[298px]" src="images/Forever21.svg" alt="Forever 21">
+      <img class="hidden xl:block w-[298px]" src="images/Forever21.svg" alt="Forever 21">
+    </div>
+  </section>
+  <section class="mt-10 flex flex-col justify-center items-center">
+    <h1 class="capitalize font-titillium font-bold text-center text-2xl mb-4">As mais pedidas</h1>
+    <div class="relative flex justify-center items-center gap-2">
+      <img class="hidden lg:block absolute top-1/2 -translate-y-1/2 lg:left-0" src="images/_icon-prev.svg"
+        alt="Ícono anterior">
+      <img class=" hidden lg:block absolute top-1/2 -translate-y-1/2 lg:right-0" src="images/_icon-next.svg"
+        alt="Ícone seguinte">
+      <img src="images/Vitrine.png" alt="Faux Suede Mini Skirt">
+      <img class="hidden sm:block" src="images/Vitrine2.png" alt="Faux Suede Mini Skirt">
+      <img class="hidden lg:block" src="images/Vitrine.png" alt="Faux Suede Mini Skirt">
+      <img class="hidden xl:block" src="images/Vitrine2.png" alt="Faux Suede Mini Skirt">
+    </div>
+  </section>
+  <section class="mt-6 mb-10 mx-8 lg:grid lg:grid-cols-3 lg:gap-16 lg:max-h-[380px] lg:justify-center lg:items-center">
+    <div>
+      <h1 class="font-titillium font-bold text-2xl mb-4">Lorem ipsum</h1>
+      <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin
+        mattis. Hendrerit
+        cras ut nunc enim dictum. Mattis proin ut quis donec sed eget nulla. Vel mi ut mauris integer. Nibh sagittis in
+        lobortis sed cursus condimentum velit pharetra. Amet luctus ut vulputate scelerisque .</p>
+    </div>
+    <img class="lg:col-span-2 lg:max-h-[380px]" src="images/Banner.png" alt="Mulher de amarelo">
+  </section>
+  <section class="border-y border-[#EFEFEF] p-6 flex flex-col md:flex-row justify-center items-center md:gap-10 mx-1">
+    <h1 class="font-titillium font-bold text-2xl mb-2 md:min-w-max">Recebe Nossa Newsletter</h1>
+    <div class="flex justify-center items-center gap-5 md:gap-0 w-full max-w-lg">
+      <input class="flex border border-[#353535] md:border-r-0 p-2 px-6 rounded h-9 w-full max-w-lg" type="text"
+        placeholder="Digite seu e-mail">
+      <button class="bg-[#FAA500] rounded text-white text-sm border border-[#FAA500] p-2 px-6 h-9"
+        type="button">Enviar</button>
+    </div>
+  </section>
+  <section class="mt-10 mx-8">
+    <ul class="md:flex md:justify-around [*>p]:hidden">
+      <li
+        class="font-titillium text-xs mb-4 flex justify-between md:justify-normal md:flex-col md:gap-6 [&>p]:hidden md:[&>p]:block">
+        <h1 class="font-bold text-base">Informações</h1><span class="md:hidden font-bold text-base">+</span>
+        <p>Quem Somos</p>
+        <p>Prazo de Envio</p>
+        <p>Trocas e Devoluções</p>
+        <p>Promoções e Cupons</p>
+      </li>
+      <li
+        class="font-titillium text-xs mb-4 flex justify-between md:justify-normal md:flex-col md:gap-6 [&>p]:hidden md:[&>p]:block">
+        <h1 class="font-bold text-base">Minha Conta</h1><span class="md:hidden font-bold text-base">+</span>
+        <p>Minha Conta</p>
+        <p>Meus Pedidos</p>
+        <p>Cadastre-se</p>
+      </li>
+      <li
+        class="font-titillium text-xs mb-4 flex justify-between md:justify-normal md:flex-col md:gap-6 [&>p]:hidden md:[&>p]:block">
+        <h1 class="font-bold text-base">Onde nos Encontrar</h1><span class="md:hidden font-bold text-base">+</span>
+        <p>Lojas</p>
+        <p>Endereço</p>
+      </li>
+    </ul>
+  </section>
+  <footer class="h-[233px] lg:h-[85px] bg-[#353535] flex flex-col lg:flex-row justify-center lg:justify-around items-center gap-8">
+    <img src="images/social-networks.svg" alt="Social Media">
+    <img src="images/accepted-payment-methods.svg" alt="Métodos de pagamento">
+    <div class="flex relative w-52 lg:mr-10">
+      <img src="images/powered-by-vtex.svg" alt="Vtex">
+      <img class="absolute right-0" src="images/powered-by-maeztra.svg" alt="Maeztra">
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
